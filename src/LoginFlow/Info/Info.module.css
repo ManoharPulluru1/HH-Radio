@@ -1,0 +1,122 @@
+.InfoMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 25px;
+}
+
+.Infotitle {
+    width: 70%;
+    height: 5%;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.InfoInputs {
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;.InfoMain {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        gap: 25px;
+      }
+      
+      .Infotitle {
+        width: 70%;
+        height: 5%;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      
+      .InfoInputs {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      
+      .InfoInputs input {
+        height: 20%;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      }
+      
+      .InfoInputs input::placeholder {
+        color: white;
+        font-weight: 200;
+      }
+      
+      .InfoInputs input:focus {
+        outline: none;
+      }
+      
+      .InfoButton {
+        height: 6%;
+        border-radius: 10px;
+        width: 100%;
+        background-color: white;
+        color: navy;
+        font-weight: 800;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .InfoSkip {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-weight: 300;
+        font-size: 14px;
+      }
+      
+}
+
+.InfoInputs input {
+    height: 20%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.InfoInputs input::placeholder {
+    color: white;
+    font-weight: 200;
+}
+
+.InfoInputs input:focus {
+    outline: none;
+}
+
+.InfoButton {
+    height: 6%;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    color: navy;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoSkip {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}

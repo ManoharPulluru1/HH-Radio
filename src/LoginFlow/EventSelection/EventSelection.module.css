@@ -1,0 +1,68 @@
+.EventSelectionMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: space-between;
+  }
+  
+  .eventSelectionTitle {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .eventSelectionTagLine {
+    height: fit-content;
+    width: 100%;
+    font-weight: 300;
+  }
+  
+  .eventSelectionBody {
+    height: 75%;
+    width: 100%;
+  }
+  
+  .eventSelectionFooter {
+    height: 15%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  
+  .eventSelectorFooterBox {
+    width: 30%;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .piechart {
+    width: 80%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .piechartText {
+    position: absolute;
+    height: 90%;
+    aspect-ratio: 1;
+    background-color: rgb(40, 40, 79);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+  }
+  
